@@ -1,0 +1,16 @@
+package Pewarisan;
+
+
+public class KonstruktorSK {
+    public static void main(String[] args) {
+        People2 programer = new People2("090903","Winda",16);
+        programer.info();
+    }
+  
+}
+
+run:
+No.Programer : 090903
+nama : Winda
+usia : 16
+BUILD SUCCESSFUL (total time: 0 seconds)
