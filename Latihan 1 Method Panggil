@@ -1,0 +1,25 @@
+package Pewarisan;
+
+public class UjiPertamaKedua {
+    public static void main(String[] args) {
+        Kedua D2 = new Kedua(); 
+        D2.BacaSuper();
+        D2.info();
+        
+        Pertama C1 = new Pertama();
+        C1.terprotek();
+        C1.info();
+    }
+}
+
+run:
+Nilai b : 8
+halo halo halo
+a = 10
+dipanggil pada = Pewarisan.Kedua
+a = 10
+dipanggil pada = Pewarisan.Kedua
+halo halo halo
+a = 10
+dipanggil pada = Pewarisan.Pertama
+BUILD SUCCESSFUL (total time: 1 second)
