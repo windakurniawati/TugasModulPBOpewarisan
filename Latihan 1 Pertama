@@ -1,0 +1,19 @@
+package Pewarisan;
+
+
+public class Pertama {
+    
+    private int a = 10;
+    
+   
+    protected void terprotek()
+    {
+        System.out.println("halo halo halo");
+    }
+    public void info ()
+    {
+        System.out.println("a = "+ a);
+        System.out.println("dipanggil pada = "+this.getClass().getName());
+    }
+
+}
