@@ -1,0 +1,17 @@
+package Pewarisan;
+
+public class UjiAB {
+    public static void main(String[] args) {
+        B ily = new B();
+        ily.setA(100);
+        ily.setB(150);
+        //akan memanggil method yang terdapat pada kelas B
+        ily.tampilkanNilai();
+    }
+    
+}
+
+run:
+Nilai a : 100
+Nilai b : 150
+BUILD SUCCESSFUL (total time: 0 seconds)
