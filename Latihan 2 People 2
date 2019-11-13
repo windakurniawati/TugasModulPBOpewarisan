@@ -1,0 +1,17 @@
+package Pewarisan;
+
+
+public class People2 extends People {
+    private String noProgramer;
+    public People2(String noProgramer, String nama, int usia)
+    {
+        super(nama,usia);
+        this.noProgramer = noProgramer;
+    }
+    public void info()
+    {
+        System.out.println("No.Programer : "+this.noProgramer);
+        super.info();
+        
+    }
+}
