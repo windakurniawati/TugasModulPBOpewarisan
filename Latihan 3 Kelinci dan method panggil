@@ -1,0 +1,28 @@
+package Pewarisan;
+
+
+public class Kelinci extends Hewan
+{
+ public static void testClassMethod()
+    {
+        System.out.println("The class method in Hewan...");
+    }
+ //meng-override method pada class Hewan
+  public void testInstanceMethod()
+    {
+        System.out.println("The Intance method in Hewan...");
+        
+    }
+    public static void main(String[] args) {
+        Kelinci myKelinci = new Kelinci();
+        Hewan myHewan = myKelinci;
+        Hewan.testClassMethod();
+        myHewan.testInstanceMethod();
+       
+    }
+}
+
+run:
+The class method in Hewan...
+The Intance method in Hewan...
+BUILD SUCCESSFUL (total time: 0 seconds)
