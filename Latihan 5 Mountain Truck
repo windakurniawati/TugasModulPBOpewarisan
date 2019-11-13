@@ -1,0 +1,38 @@
+package Pewarisan;
+
+
+public class MountainTruck extends Truck {
+    public int seatHeight;
+    public MountainTruck (int startHeight, int startCandence, int startSpeed, int startGear)
+    {
+        super (startCandence, startSpeed, startGear);
+        seatHeight = startHeight;
+    }
+    public void setHeight(int newValue)
+    {
+        seatHeight = newValue;
+    }
+    public static void main(String[] halo) {
+        System.out.println("Mulai berjalan");
+        MountainTruck ily = new MountainTruck(0,0,0,0);
+        System.out.println("gear : "+ily.gear);
+        System.out.println("speed : "+ily.speed);
+        ily.setGear(3);
+        ily.speedUp(3);
+        System.out.println("gear : "+ily.gear);
+        System.out.println("speed : "+ily.speed);
+        ily.speedUp(2);
+        System.out.println("gear : "+ily.gear);
+        System.out.println("speed : "+ily.speed);
+    }
+}
+
+run:
+Mulai berjalan
+gear : 0
+speed : 0
+gear : 3
+speed : 3
+gear : 3
+speed : 2
+BUILD SUCCESSFUL (total time: 0 seconds)
