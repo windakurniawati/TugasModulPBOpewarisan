@@ -1,0 +1,19 @@
+package Pewarisan;
+
+
+public class People {
+    private String nama;
+    private int usia;
+    
+    //kontruktor
+    public People(String nama,int usia){
+        this.nama = nama;
+        this.usia = usia;
+        
+    }
+    //metode
+    public void info(){
+        System.out.println("nama : "+this.nama);
+        System.out.println("usia : "+this.usia);
+    }
+}
